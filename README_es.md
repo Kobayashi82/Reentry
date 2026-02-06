@@ -41,26 +41,18 @@
 
 ## 🔧 Instalacion
 
-1. Instala el mod kOS para Kerbal Space Program
-2. Instala el mod Trajectories
+1. Instala el mod `kOS` para Kerbal Space Program
+2. Instala el mod `Trajectories`
 3. Clona o descarga este repositorio
 4. Copia todos los archivos `.ks` a tu carpeta `Ships/Script` de KSP o cargalos en el procesador kOS de tu nave
 
 ## 🎮 Uso
 
-### Uso basico
-
 ```kerboscript
-run Reentry.
+run reentry.
 ```
 
-### Con parametros
-
-```kerboscript
-run Reentry("LaunchPad", True, 10, 200, "Yes", 5, "Yes", 0, "Yes", "Yes", "Yes", "Yes", "Engine").
-```
-
-#### Parametros clave (en orden)
+### Parametros
 1. `Pad` (string): Nombre de plataforma, "Target" o "lat, lng"
 2. `ShowInfo` (boolean): Mostrar UI en el terminal
 3. `ExtraAlt` (number): Margen de altitud extra (m)
@@ -98,15 +90,21 @@ En la pantalla de ajustes, usa `1-0` para alternar antenas, luces, paneles, dril
 
 Las plataformas se guardan en `Pads.ks` como tripletas: nombre, coordenadas, cuerpo.
 
+```kerboscript
+cPads:Add("My Custom Pad").
+cPads:Add("12.345678, -98.765432").
+cPads:Add("Kerbin").
+```
+
 ## 📚 Solucion de problemas
 
 ### Trajectories no encontrado
-- Asegurate de que el mod Trajectories este instalado y activo
-- El script se cierra si Trajectories no esta disponible
+- Asegurate de que el mod `Trajectories` este instalado y activo
+- El script se cierra si `Trajectories` no esta disponible
 
 ### No hay plataforma seleccionada
 - Usa el menu para elegir una plataforma o un objetivo/waypoint
-- Para aterrizaje libre, elige "Anywhere"
+- Para aterrizaje libre, elige `Anywhere`
 
 ## 📄 Licencia
 

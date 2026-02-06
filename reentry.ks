@@ -12,7 +12,7 @@
 /////// VARIABLES FOR TWEAKING ///////
 //////////////////////////////////////
 
-Parameter Pad           is "Anywhere".				// Land at this location ([Pad_Name], [Vessel_Name], "Target" or "[LAT], [LNG])"
+Parameter Pad           is "Anywhere".			// Land at this location ([Pad_Name], [Vessel_Name], "Target" or "[LAT], [LNG])"
 Parameter ShowInfo      is  True.				// Show printed information in the kOS console
 
 Parameter ExtraAlt      is  0.					// Altitude offset (in meters) for 'Suicide Burn' calculation

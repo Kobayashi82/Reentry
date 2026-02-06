@@ -41,26 +41,18 @@
 
 ## 🔧 Installation
 
-1. Install kOS mod for Kerbal Space Program
-2. Install Trajectories mod
+1. Install `kOS` mod for Kerbal Space Program
+2. Install `Trajectories` mod
 3. Clone or download this repository
 4. Copy all `.ks` files to your KSP `Ships/Script` folder or load them onto your craft's kOS processor
 
 ## 🎮 Usage
 
-### Basic Usage
-
 ```kerboscript
-run Reentry.
+run reentry.
 ```
 
-### With Parameters
-
-```kerboscript
-run Reentry("LaunchPad", True, 10, 200, "Yes", 5, "Yes", 0, "Yes", "Yes", "Yes", "Yes", "Engine").
-```
-
-#### Key Parameters (in order)
+### Parameters
 1. `Pad` (string): Landing pad name, "Target", or "lat, lng"
 2. `ShowInfo` (boolean): Show UI in the terminal
 3. `ExtraAlt` (number): Extra altitude margin (m)
@@ -98,15 +90,21 @@ In the landing settings screen, use `1-0` to toggle antennas, lights, solar pane
 
 Pads are stored in `Pads.ks` as triplets: name, coordinates, body name.
 
+```kerboscript
+cPads:Add("My Custom Pad").
+cPads:Add("12.345678, -98.765432").
+cPads:Add("Kerbin").
+```
+
 ## 📚 Troubleshooting
 
 ### Trajectories Not Found
-- Ensure the Trajectories mod is installed and active
-- The script exits if Trajectories is not available
+- Ensure the `Trajectories` mod is installed and active
+- The script exits if `Trajectories` is not available
 
 ### No Pad Selected
 - Use the menu to pick a pad or set a target/waypoint
-- For free landing, choose "Anywhere"
+- For free landing, choose `Anywhere`
 
 ## 📄 License
 
