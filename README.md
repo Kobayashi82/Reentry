@@ -6,8 +6,7 @@
 ![kOS](https://img.shields.io/badge/kOS-Autopilot-blue?style=for-the-badge)
 ![KSP](https://img.shields.io/badge/Kerbal-Space%20Program-orange?style=for-the-badge)
 
-
-*Script de reentrada y aterrizaje automatizado*
+*Automated reentry and landing script*
 
 </div>
 
