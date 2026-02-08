@@ -14,7 +14,7 @@
   <img src="/Reentry.png">
 </div>
 
-# Reentry Lander
+# Reentry
 
 [README in English](README.md)
 
