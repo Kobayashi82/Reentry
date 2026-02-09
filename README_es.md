@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <img src="/Reentry.png">
+  <img src="/W_Reentry.png">
 </div>
 
 # Reentry
